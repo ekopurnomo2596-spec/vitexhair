@@ -83,7 +83,7 @@ const products: Record<string, {
     image: "/hair-i-tip.avif",
     images: ["/hair-i-tip.avif", "/hair-tape.jpg"],
     description: "Fusion bonded extensions for long-lasting wear",
-    fullDescription: "EMA Keratin Tip Extensions use advanced fusion bonding technology for a secure, long-lasting hold. Each strand is tipped with high-quality keratin that bonds to your natural hair using heat application. Made from 100% Indonesian human hair, these extensions provide the most natural look and can last up to 6 months with proper care. Perfect for clients seeking a semi-permanent solution.",
+    fullDescription: "Vitex Keratin Tip Extensions use advanced fusion bonding technology for a secure, long-lasting hold. Each strand is tipped with high-quality keratin that bonds to your natural hair using heat application. Made from 100% Indonesian human hair, these extensions provide the most natural look and can last up to 6 months with proper care. Perfect for clients seeking a semi-permanent solution.",
     specs: [
       { label: "Hair Quality", value: "100% Cuticle Aligned" },
       { label: "Hair Ratio", value: "Single Drawn, Double Drawn" },
@@ -137,8 +137,8 @@ export default function ProductPage() {
             {/* Logo */}
             <Link href="/" className="flex items-center">
               <span className="text-2xl font-bold">
-                <span className="text-[#C41E3A]">EMA</span>
-                <span className="text-gray-900">HAIRSHOP</span>
+                <span className="text-[#C41E3A]">VITEX</span>
+                <span className="text-gray-900">HAIRCOMPANY</span>
               </span>
             </Link>
 
@@ -161,7 +161,7 @@ export default function ProductPage() {
             {/* Social Icons */}
             <div className="flex items-center gap-3">
               <a
-                href="https://www.instagram.com/emahairshop/"
+                href="https://www.instagram.com/vitexhair/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-[#C41E3A] rounded-md flex items-center justify-center text-white hover:bg-[#a01830] transition-colors"
@@ -370,7 +370,7 @@ export default function ProductPage() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-            Copyright 2025 emahairshop. All rights reserved.
+            Copyright 2025 VITEXHAIRCOMPANY. All rights reserved.
           </div>
         </div>
       </footer>
